@@ -15,7 +15,7 @@ import { useCurrentUser } from "../../contexts/CurrentUserContext";
 
 import InfiniteScroll from "react-infinite-scroll-component";
 import Asset from "../../components/Asset";
-import { fetchMoreData } from "../../utils/utils";
+import { fetchMoreData } from "../../utils/Utils";
 
 function PostPage() {
   const { id } = useParams();
